@@ -1,0 +1,43 @@
+[0m16:51:37.921282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D9EF4C590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D9CDE1A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DA0049810>]}
+
+
+============================== 16:51:37.934225 | 4b614be6-c058-48bb-b9e8-3e1d5fa74f1e ==============================
+[0m16:51:37.934225 [info ] [MainThread]: Running with dbt=1.11.0-a1
+[0m16:51:37.935571 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jpess\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init edd-dbt-airbyte', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:51:37.981573 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\jpess\.dbt
+[0m16:52:04.111288 [debug] [MainThread]: Starter project path: C:\Users\jpess\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m16:52:04.142304 [info ] [MainThread]: 
+Your new dbt project "edd_dbt_airbyte" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:52:04.143523 [info ] [MainThread]: Setting up your profile.
+[0m16:52:04.146327 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m16:52:04.148618 [debug] [MainThread]: Command `dbt init` failed at 16:52:04.148261 after 26.44 seconds
+[0m16:52:04.150171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DA00E96E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DA1180710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D9FF5DE10>]}
+[0m16:52:04.151323 [debug] [MainThread]: Flushing usage events
+[0m16:52:04.812843 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:52:42.878866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D69993E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D67989BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D6ABE1450>]}
+
+
+============================== 16:52:42.885605 | d3aedf40-c0ca-485d-9163-188414062d8e ==============================
+[0m16:52:42.885605 [info ] [MainThread]: Running with dbt=1.11.0-a1
+[0m16:52:42.886564 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\jpess\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init edd_dbt_airbyte', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:52:42.930029 [info ] [MainThread]: A project called edd_dbt_airbyte already exists here.
+[0m16:52:42.932960 [debug] [MainThread]: Command `dbt init` succeeded at 16:52:42.932567 after 0.24 seconds
+[0m16:52:42.933606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D6AC2A060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D6AC93770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D6AAE89E0>]}
+[0m16:52:42.934227 [debug] [MainThread]: Flushing usage events
+[0m16:52:43.574188 [debug] [MainThread]: An error was encountered while trying to flush usage events
